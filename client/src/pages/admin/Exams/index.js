@@ -92,7 +92,7 @@ function Exams() {
         <PageTitle title="Exams" />
         <button
           className="primary-outlined-btn flex items-center"
-          onClick={() => navigate("/admin/exams/genwithai")}
+          onClick={() => navigate("/admin/exams/generate-quiz")}
         >
           <i className="ri-add-line"></i>
           Generate With AI

@@ -26,12 +26,6 @@ function ProtectedRoute({ children }) {
       icon: <i className="ri-bar-chart-line"></i>,
       onClick: () => navigate("/user/reports"),
     },
-    // {
-    //   title: "Profile",
-    //   paths: ["/profile"],
-    //   icon: <i className="ri-user-line"></i>,
-    //   onClick: () => navigate("/profile"),
-    // },
     {
       title: "Logout",
       paths: ["/logout"],
@@ -52,7 +46,7 @@ function ProtectedRoute({ children }) {
     },
     {
       title: "Exams",
-      paths: ["/admin/exams", "/admin/exams/add","/admin/exams/genwithai"],
+      paths: ["/admin/exams", "/admin/exams/add", "/admin/exams/generate-quiz"],
       icon: <i className="ri-file-list-line"></i>,
       onClick: () => navigate("/admin/exams"),
     },
@@ -62,12 +56,6 @@ function ProtectedRoute({ children }) {
       icon: <i className="ri-bar-chart-line"></i>,
       onClick: () => navigate("/admin/reports"),
     },
-    // {
-    //   title: "Profile",
-    //   paths: ["/profile"],
-    //   icon: <i className="ri-user-line"></i>,
-    //   onClick: () => navigate("/profile"),
-    // },
     {
       title: "Logout",
       paths: ["/logout"],

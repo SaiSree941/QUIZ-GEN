@@ -13,7 +13,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Home from "./pages/common/Home";
 import Exams from "./pages/admin/Exams";
 import AddEditExam from "./pages/admin/Exams/AddEditExam";
-import GenWithAI from "./pages/admin/Exams/GenWithAI";
+import GenWithAI from "./pages/admin/Exams/GenWithAI_temp";
 import Loader from "./components/Loader";
 import { useSelector } from "react-redux";
 import WriteExam from "./pages/user/WriteExam";
@@ -74,7 +74,7 @@ function App() {
             }
           />
           <Route
-            path="/admin/exams/genwithai"
+            path="/admin/exams/generate-quiz"
             element={
               <ProtectedRoute>
                 <GenWithAI />
